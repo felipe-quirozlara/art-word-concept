@@ -1,0 +1,4 @@
+.slider-container {width: 100%;overflow: hidden;}
+.slider-container .slider-row {display: flex;flex-direction: row;gap: 8px;width: max-content;}
+.slider-container .slider-row .card-column {height: auto;display: flex;flex-direction: column;}
+.slider-container .slider-row .card-column .responsive-image {width: 100%;height: 24rem;-o-object-fit: cover;object-fit: cover;}
