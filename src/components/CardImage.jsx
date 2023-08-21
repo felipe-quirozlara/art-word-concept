@@ -4,6 +4,7 @@ function CardImage({ props }) {
   const { id, title, image } = props;
   
   const handleErroImage = (e) => {
+    console.log(e.target.parentElement);
     e.target.parentElement.remove();
   }
 
